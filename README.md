@@ -1,6 +1,6 @@
 ﻿# Tic-Tac-Toe-5 by 5-
 
- it is made using HTML , CSS AND Javascript
+ it is made using HTML , CSS  and  Javascript
 
  Hosted Link- https://tic-tac-toe-by-mg.netlify.app/
  
