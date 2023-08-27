@@ -6,7 +6,7 @@
  
 
  
-![Document - Google Chrome 28-08-2023 00_00_16](https://github.com/mtg718/Tic-Tac-Toe-5-5-/assets/135738292/9414c8db-8b37-48f7-8f2c-7b3083759db2
+![Document - Google Chrome 28-08-2023 00_00_16](https://github.com/mtg718/Tic-Tac-Toe-5-5-/assets/135738292/9414c8db-8b37-48f7-8f2c-7b3083759db2)
 
 
 ![Document - Google Chrome 28-08-2023 00_06_20](https://github.com/mtg718/Tic-Tac-Toe-5-5-/assets/135738292/0a4898fe-517d-43f2-95bf-53653d676a7b)
