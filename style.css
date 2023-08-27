@@ -1,0 +1,98 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color:rosybrown;
+  
+}
+
+.game-info{
+
+    color: black;
+position: absolute;
+top: 3rem;
+left: 50%;
+transform: translate(-50%);
+background-color: rgba(255, 255, 255, 0.15);
+border-radius: 1rem;
+border: 1px solid rgba(255, 255, 255, 0.25);
+padding: 0.5rem 3rem ;
+text-align: center;
+}
+
+.tic-tac{
+
+    width: 90%;
+    max-width: 30rem;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 1rem;
+border: 1px solid rgba(255, 255, 255, 0.25);
+padding: 2rem;
+display: grid;
+grid-template-columns: repeat(5,1fr);
+aspect-ratio: 1/1;
+
+}
+
+.box{
+  
+position: relative;
+width: 100%;
+aspect-ratio: 1/1;
+cursor: pointer;
+font-size: 3rem;
+color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.box1,.box2,.box3,.box4,.box6,.box7,.box8,.box9,.box11,.box12,.box13,.box14,.box16,.box17,.box18,.box19{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.box5,.box10,.box15,.box20{
+    border-bottom: 2px solid black;
+}
+.box21,.box22,.box23,.box24{
+    border-right: 2px solid black;
+}
+
+
+.btn{
+/* show button only when new game start or old game finishes otherwise dislay none*/
+    display: none;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 1rem;
+border: 1px solid rgba(255, 255, 255, 0.25);
+
+cursor: pointer;
+color: black;
+position: absolute;
+bottom: 3rem;
+left: 50%;
+transform: translateX(-50%);
+padding: 0.5rem 2rem;
+
+}
+
+.btn.active{
+    display: flex;
+}
+
+.win{
+  
+
+  
+    background-color: rgba(0, 255, 0, 0.3);
+}
